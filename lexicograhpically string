@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Substring {
+    public static void main(String[] args) {
+        Scanner n = new Scanner(System.in);
+        String inputString = n.nextLine();
+        int startIndex = n.nextInt();
+        int endIndex = n.nextInt();
+        String substring = inputString.substring(startIndex, endIndex);
+        System.out.println(substring);
+        
+        n.close();
+    }
+}
